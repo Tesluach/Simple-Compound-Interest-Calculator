@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A Simple Interest Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <!-- The main container -->
+    <div class="container">
+        <form id="simpleInterest">
+            <fieldset>
+                <legend><strong>Simple Interest</strong></legend>
+
+                <label for="principal">Principal: </label>
+                <input type="text" name="interest" id="prin" placeholder="Enter principal">
+                <br />
+                <label for="principal">Rate: </label>
+                <input type="text" name="interest" id="rating" placeholder="Enter rate">
+                <br />
+                <label for="principal">Time: </label>
+                <input type="text" name="interest" id="timing" placeholder="Enter time/period in years">
+                <br/>
+
+                <input type="submit" name="calculate" value="Calculate"><br />
+
+                <label for="interest">Interest: </label>
+                <input type="text" id="result" name="interest" disabled placeholder="Result here...">
+                <br />
+                <br />
+                <a href="#">Compound Interest</a>
+                <a href="#" id="clear"><img src="icons8_Broom_20px.png" alt="">Clear</a>
+            </fieldset>
+        </form>
+
+        <form id="compoundInterest">
+            <fieldset>
+                <legend><strong>Compound Interest</strong></legend>
+
+                <label for="principal">Principal: </label>
+                <input type="text" name="interest" id="prin" placeholder="Enter principal">
+                <br />
+                <label for="principal">Rate: </label>
+                <input type="text" name="interest" id="rating" placeholder="Enter rate">
+                <br />
+                <label for="principal">Time: </label>
+                <input type="text" name="interest" id="timing" placeholder="Enter time/period in years">
+                <br/>
+
+                <input type="submit" name="calculate" value="Calculate"><br />
+
+                <label for="Compound">Compound: </label>
+                <input type="text" id="compoundResult" name="interest" disabled placeholder="Result here...">
+                <br />
+                <br />
+                <a href="#">Simple Interest</a>
+                <a href="#" id="clear"><img src="icons8_Broom_20px.png" alt="">Clear</a>
+            </fieldset>
+        </form>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
